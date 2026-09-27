@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Booking</title><link rel="stylesheet" href="/styles.css"/></head>
+<body><header class="nav"><a class="brand" href="/">INKVERSE</a><a class="btn ghost" href="/login.html">Login</a></header>
+<div class="wrap grid g2"><div><p class="kicker">Book your appointment</p><h2>Follow these steps to book your session</h2>
+<form data-wizard data-kind="booking"><div class="steps"><div class="step on">1</div><div class="step">2</div><div class="step">3</div><div class="step">4</div></div>
+<div data-step><label>Full Name</label><input name="name" required/><label>Email</label><input name="email" type="email" required/><label>Phone</label><input name="phone" required/><button type="button" class="btn" data-next>Next</button></div>
+<div data-step class="hidden"><label>Service</label><select name="service"><option>Small Tattoo</option><option>Medium Tattoo</option><option>Large Tattoo</option><option>Custom Tattoo</option></select><button type="button" class="btn" data-next>Next</button></div>
+<div data-step class="hidden"><label>Artist</label><select name="artist"><option>Rohan Sharma</option><option>Aarushi Khan</option></select><button type="button" class="btn" data-next>Next</button></div>
+<div data-step class="hidden"><label>Date</label><input type="date" name="date"/><button class="btn" type="submit">Confirm Appointment</button></div></form></div>
+<div class="card"><div class="media" style="min-height:420px"><img src="/images/hero-back.jpg" alt=""/></div></div></div>
+<script src="/app.js"></script></body></html>
