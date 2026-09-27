@@ -1,8 +1,4 @@
-# INKVERSE — Tattoo Studio Demo
+INKVERSE is the poster picture.
 
-Public demo matching the INKVERSE studio screens.
-
-Live: https://tattoo-artist-three.vercel.app
-
-Customer: aditya@gmail.com / demo1234
-Admin: demo@inkverse.com / InkverseDemo2026!
+Open index.html. Use All + numbered buttons to see each screen from the mockup poster.
+This is not a normal rebuilt website. It is the picture.
