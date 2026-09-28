@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Booking</title><link rel="stylesheet" href="/styles.css"/></head>
-<body><header class="nav"><a class="brand" href="/">INKVERSE</a><a class="btn ghost" href="/login.html">Login</a></header>
-<div class="wrap grid g2"><div><p class="kicker">Book your appointment</p><h2>Follow these steps to book your session</h2>
-<form data-wizard data-kind="booking"><div class="steps"><div class="step on">1</div><div class="step">2</div><div class="step">3</div><div class="step">4</div></div>
-<div data-step><label>Full Name</label><input name="name" required/><label>Email</label><input name="email" type="email" required/><label>Phone</label><input name="phone" required/><button type="button" class="btn" data-next>Next</button></div>
-<div data-step class="hidden"><label>Service</label><select name="service"><option>Small Tattoo</option><option>Medium Tattoo</option><option>Large Tattoo</option><option>Custom Tattoo</option></select><button type="button" class="btn" data-next>Next</button></div>
-<div data-step class="hidden"><label>Artist</label><select name="artist"><option>Rohan Sharma</option><option>Aarushi Khan</option></select><button type="button" class="btn" data-next>Next</button></div>
-<div data-step class="hidden"><label>Date</label><input type="date" name="date"/><button class="btn" type="submit">Confirm Appointment</button></div></form></div>
-<div class="card"><div class="media" style="min-height:420px"><img src="/images/hero-back.jpg" alt=""/></div></div></div>
-<script src="/app.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book Your Appointment — INKVERSE</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/photos.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="/"><span class="mark"></span>INKVERSE</a>
+    <nav class="links">
+      <a href="/">Home</a>
+      <a href="/gallery.html">Gallery</a>
+      <a href="/custom.html">Custom Designer</a>
+      <a class="active" href="/booking.html">Booking</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/about.html">About</a>
+      <a href="/reviews.html">Reviews</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <a class="btn sm" href="/booking.html">Book Now</a>
+  </header>
+  <section class="wrap split">
+    <div>
+      <h1 class="page-title" style="text-align:left">BOOK YOUR APPOINTMENT</h1>
+      <p class="sub">Follow these steps to book your session</p>
+      <div class="steps">
+        <div class="step on">1</div><div class="step">2</div><div class="step">3</div><div class="step">4</div>
+        <div class="step">5</div><div class="step">6</div><div class="step">7</div><div class="step">8</div>
+      </div>
+      <div class="card pad">
+        <h3>Personal Details</h3>
+        <form onsubmit="event.preventDefault();location.href='/account.html'">
+          <label>Full Name<input placeholder="Your name" /></label>
+          <label>Email Address<input type="email" placeholder="you@email.com" /></label>
+          <label>Phone Number<input placeholder="+91" /></label>
+          <button class="btn" type="submit">Next →</button>
+        </form>
+      </div>
+    </div>
+    <div class="book-art ph-hero">
+      <div class="cap"><b>Your Next Tattoo</b><div class="tiny">Starts Here</div></div>
+    </div>
+  </section>
+</body>
+</html>
