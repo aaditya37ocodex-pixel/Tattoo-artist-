@@ -1,5 +1,5 @@
-.ph-hero{background-image:url(/images/hero-back.jpg);background-size:cover;background-position:72% center}
-.ph-lion{background-image:url(/images/gallery-lion.jpg);background-size:cover;background-position:center}
-.ph-floral{background-image:url(/images/gallery-floral.jpg);background-size:cover;background-position:center}
-.ph-geo{background-image:url(/images/gallery-geometric.jpg);background-size:cover;background-position:center}
-.ph-port{background-image:url(/images/gallery-portrait.jpg);background-size:cover;background-position:center}
+.ph-hero{background-image:linear-gradient(120deg,rgba(7,8,12,.2),rgba(7,8,12,.65)),radial-gradient(circle at 70% 30%,#3a2a1c 0%,#0b0c10 70%);background-size:cover;background-position:center}
+.ph-lion{background-image:radial-gradient(circle at 50% 35%,#c4a574 0%,#2a1c12 42%,#0b0c10 100%);background-size:cover}
+.ph-floral{background-image:radial-gradient(circle at 50% 40%,#8a6a55 0%,#241810 55%,#0b0c10 100%);background-size:cover}
+.ph-geo{background-image:radial-gradient(circle at 50% 40%,#6a7a88 0%,#1a2230 55%,#0b0c10 100%);background-size:cover}
+.ph-port{background-image:radial-gradient(circle at 50% 30%,#d7c4a6 0%,#3a2a22 48%,#0b0c10 100%);background-size:cover}
