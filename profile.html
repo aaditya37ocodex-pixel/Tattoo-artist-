@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profile Settings — INKVERSE</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body class="light">
+  <header class="nav">
+    <a class="brand" href="/"><span class="mark"></span>INKVERSE</a>
+    <span class="tiny">Customer Studio</span>
+  </header>
+  <div class="dash">
+    <aside class="side">
+      <a href="/account.html">Dashboard</a>
+      <a href="/bookings.html">My Bookings</a>
+      <a href="/designs.html">Custom Designs</a>
+      <a href="/reviews.html">Reviews</a>
+      <a href="/profile.html" class="on">Profile</a>
+      <a href="/">Logout</a>
+    </aside>
+    <div class="mainpad">
+      <h1>Profile Settings</h1>
+      <form class="box" style="max-width:520px;margin-top:16px" onsubmit="event.preventDefault();alert('Profile updated.');">
+        <label>Full Name<input value="Aditya" /></label>
+        <label>Email<input type="email" value="aditya@inkverse.com" /></label>
+        <label>Phone<input value="+91 98765 43210" /></label>
+        <label>Current Password<input type="password" /></label>
+        <label>New Password<input type="password" /></label>
+        <button class="btn" type="submit">Save Changes</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

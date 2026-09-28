@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create Account — INKVERSE</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/photos.css" />
+</head>
+<body>
+  <div class="login-wrap" style="grid-template-columns:1fr">
+    <div class="login-box">
+      <a class="brand" href="/"><span class="mark"></span>INKVERSE</a>
+      <h1 style="font-size:32px;margin:18px 0 6px">Create Your Account</h1>
+      <p class="tiny">Join the INKVERSE community</p>
+      <form onsubmit="event.preventDefault();location.href='/account.html'">
+        <label>Full Name<input value="Aditya" /></label>
+        <label>Email Address<input type="email" value="aditya@inkverse.com" /></label>
+        <label>Phone Number<input value="+91 98765 43210" /></label>
+        <label>Password<input type="password" value="demo1234" /></label>
+        <label>Confirm Password<input type="password" value="demo1234" /></label>
+        <button class="btn full" type="submit">Register</button>
+      </form>
+      <p class="tiny" style="margin-top:14px">Already have an account? <a href="/login.html">Login</a></p>
+    </div>
+  </div>
+</body>
+</html>

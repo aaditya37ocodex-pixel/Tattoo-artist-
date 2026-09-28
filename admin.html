@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Dashboard — INKVERSE</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body class="light">
+  <header class="nav">
+    <a class="brand" href="/admin.html"><span class="mark"></span>INKVERSE</a>
+    <span class="tiny">Admin Studio</span>
+  </header>
+  <div class="dash">
+    <aside class="side">
+      <a href="/admin.html" class="on">Dashboard</a>
+      <a href="/admin-bookings.html">Bookings</a>
+      <a href="/editor.html">Website Editor</a>
+      <a href="/gallery.html">Gallery</a>
+      <a href="/">Logout</a>
+    </aside>
+    <div class="mainpad">
+      <h1>Dashboard</h1>
+      <div class="kpi" style="grid-template-columns:repeat(6,1fr);margin:16px 0">
+        <div class="box"><span class="tiny">Total Bookings</span><b>24</b></div>
+        <div class="box"><span class="tiny">Today Appointments</span><b>6</b></div>
+        <div class="box"><span class="tiny">Pending Bookings</span><b>5</b></div>
+        <div class="box"><span class="tiny">Confirmed Bookings</span><b>15</b></div>
+        <div class="box"><span class="tiny">Completed Bookings</span><b>18</b></div>
+        <div class="box"><span class="tiny">Custom Requests</span><b>7</b></div>
+      </div>
+      <div class="grid g2">
+        <div class="box">
+          <h3>Booking Trends</h3>
+          <div class="chart"><svg viewBox="0 0 320 140" preserveAspectRatio="none"><polyline fill="none" stroke="#111" stroke-width="2" points="10,110 50,90 90,95 130,60 170,70 210,40 250,55 300,30"/></svg></div>
+        </div>
+        <div class="box">
+          <h3>Today Schedule</h3>
+          <p>11:00 AM · Fine Line · Ananya</p>
+          <p>1:00 PM · Realism · Rahul</p>
+          <p>3:00 PM · Floral · Sneha</p>
+          <p>5:00 PM · Japanese · Aditya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

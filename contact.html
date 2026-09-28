@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — INKVERSE</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/photos.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="/"><span class="mark"></span>INKVERSE</a>
+    <nav class="links">
+      <a href="/">Home</a>
+      <a href="/gallery.html">Gallery</a>
+      <a href="/custom.html">Custom Designer</a>
+      <a href="/booking.html">Booking</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/about.html">About</a>
+      <a href="/reviews.html">Reviews</a>
+      <a class="active" href="/contact.html">Contact</a>
+    </nav>
+    <a class="btn sm" href="/booking.html">Book Now</a>
+  </header>
+  <section class="wrap split">
+    <div>
+      <h1 class="page-title" style="text-align:left">Get In Touch</h1>
+      <p class="sub">We would love to hear from you</p>
+      <p class="tiny">Our Location<br>Bengaluru, Karnataka</p>
+      <p class="tiny">Phone<br>+91 98765 43210</p>
+      <p class="tiny">Email<br>info@inkverse.com</p>
+      <p class="tiny">Opening Hours<br>Mon-Sat: 11:00 AM - 9:00 PM<br>Sun: 12:00 PM - 6:00 PM</p>
+      <form onsubmit="event.preventDefault();alert('Message saved for the studio team.');">
+        <label>Name<input /></label>
+        <label>Email<input type="email" /></label>
+        <label>Message<textarea rows="4"></textarea></label>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+    <div class="map"><span>Bengaluru</span></div>
+  </section>
+</body>
+</html>

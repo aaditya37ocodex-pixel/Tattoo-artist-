@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Login — INKVERSE</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/photos.css" />
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="login-art ph-hero"></div>
+    <div class="login-box">
+      <a class="brand" href="/"><span class="mark"></span>INKVERSE</a>
+      <h1 style="font-size:30px;margin:16px 0 6px">Admin Login</h1>
+      <p class="tiny">Demo Admin Access</p>
+      <form onsubmit="event.preventDefault();location.href='/admin.html'">
+        <label>Email<input type="email" value="demo@inkverse.com" /></label>
+        <label>Password<input type="password" value="inkverseDemo2026" /></label>
+        <button class="btn full" type="submit">Enter Demo Admin</button>
+      </form>
+      <div class="notice" style="margin-top:16px">Demo Admin Credentials<br>Email: demo@inkverse.com<br>Password: inkverseDemo2026</div>
+    </div>
+  </div>
+</body>
+</html>
