@@ -1,4 +1,4 @@
-INKVERSE is the poster picture.
+# INKVERSE
 
-Open index.html. Use All + numbered buttons to see each screen from the mockup poster.
-This is not a normal rebuilt website. It is the picture.
+Complete tattoo studio website demo.
+Customer pages + admin demo dashboard.
